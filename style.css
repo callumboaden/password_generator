@@ -1,0 +1,83 @@
+/* General Styles */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  color: #FFF;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.btn {
+  display: inline-block;
+  color: #FFF;
+  background: blue;
+  width: 15%;
+  padding: 5px;
+}
+
+.btn-large {
+  width: 100%;
+}
+
+/* Password Generator */
+.container {
+  min-width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #000;
+  padding: 30px;
+}
+
+.container h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.container .result-container {
+  margin-bottom: 10px;
+}
+
+.container .result-container #result {
+  display: inline-block;
+  background: #FFF;
+  color: #000;
+  padding: 4px;
+  width: 83%;
+  height: 28px;
+  vertical-align: bottom;
+}
+
+.container .settings {
+  position: relative;
+}
+
+.container .settings .setting {
+  padding: 5px 0;
+}
+
+.container .settings .setting:last-of-type {
+  margin-bottom: 10px;
+}
+
+.container .settings .setting input {
+  position: absolute;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */
